@@ -1,7 +1,7 @@
 Summary: UPnP (TM) A/V & DLNA Media Server
 Name: ushare-freeworld
 Version: 1.1a
-Release: 5%{?dist}
+Release: 6%{?dist}
 License: LGPLv2+
 Group: Applications/Multimedia
 URL: http://ushare.geexbox.org/
@@ -59,6 +59,9 @@ fi
 %{_bindir}/ushare-freeworld
 
 %changelog
+* Sat Dec 20 2008 Dominik Mierzejewski <rpm@greysector.net> - 1.1a-6
+- rebuild against new ffmpeg
+
 * Sun Aug 03 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 1.1a-5
 - rebuild
 
